@@ -23,8 +23,8 @@ const Button = ({ text, color, onClick }) => {
   return (
     <button 
       className="btn"
-      style={{ backgroundColor: finalColor }}
-      onClick={onClick}
+      style={{ backgroundColor: finalColor }} // цвет фона кнопки
+      onClick={onClick} // обработчик события
     >
       {text}
     </button>
